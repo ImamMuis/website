@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mengenal Jaringan WAN</title>
+	<!--
+	Conquer Template
+	http://www.templatemo.com/tm-476-conquer
+	-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>   
+			<div class="sticky-wrapper" id="tmNavbar" align="center">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="pei.html">PEI</a></li>
+					<li><a href="mkt.html">Mechatronics</a></li>
+					<li><a href="articles.html">Articles</a></li>
+					<li><a href="#section4" >Contact</a></li>
+				</ul>
+			</div>   
+		</div>
+	</nav>
+		<br><br><br>
+		<!-- Start Testimornial Area -->
+			<section id="testimornial-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="tm-box">
+								<p align="center"><img src="img/articles/3-3.gif" alt="Image" class="img-responsive"></p>
+								<div class="tm-box-description">
+									<h2>Mengenal Jaringan WAN</h2>
+									<ol>
+										<h3><li>WAN (Wide Area Network) </li></h3><br>
+										<p align="justify">WAN (Wide Area Network) merupakan jaringan komputer yang mencakup area yang besar sebagai contoh yaitu jaringan komputer antar wilayah, kota atau bahkan negara, atau dapat diidefinisikan juga sebagai jaringan komputer yang membutuhkan router dan saluran komunikasi publik. Internet merupakan contoh dari jaringan WAN ini Jika Wide Area Network sudah mencakup area intercontinental maka disebut jaringan informasi global atau internet. <br><br>
+										Disamping pengiriman paket secara datagram, dalam jaringan IP juga dikenal pengiriman paket secara connection oriented dimana sebelum paket dikirim, dilakukan setup koneksi logika dari tempat asal ketujuan oleh proses paket control dengan request logical connection agar paket suatu informasi menempuh rute yang sama. Mode koneksi ini disebut virtual circuit, tetapi tidak seperti pada jaringan circuit switched yang menduduki kanal (bandwidth/resources) secara monopoli, dalam virtual circuit penggunaan resources masih dalam pola sharing. Dengan cara demikian urutan paket bisa dijamin, tetap tingkat kontinuitas real time tidak dijamin, sangat bergantung pada kapasitas dan tingkat kepadatan trafik dalam jaringan. Dengan mode virtual circuit ini memungkinkan suatu kelompok organisasi / perusahaan memiliki jaringan privat (semacam jaringan PBX) secara virtual (disebut IP VPN / Virtual Private Network), atau semacam jaringan PBX (Private Branch Exchange) tetapi lingkup area tidak terbatas seperti PABX karena jaringan yang dibangun dalam IP VPN bukan secara fisik melainkan secara logika dan pembentukan jaringan hanya saat diperlukan saja sehingga lingkup jaringan pribadi IP VPN dapat mencakup area nasional bahkan internasional. <br><br>
+										Jaringan berbasis packet switched lain yang banyak dikembangkan di AS adalah jaringan ATM (Asynchronus Transfer Mode). Perbedaannya dengan jaringan IP, bahwa pada jaringan ATM mode koneksi secara keseluruhan menggunakan virtual circuit, sedangkan pada jaringan IP, virtual circuit hanya bersifat option. Perbedaan lain, paket pada jaringan ATM disebut cell selalu tetap yakni 53 oktet (Byte) yang terdiri dari 48 oktet payload, 5 oktet header. Sedangkan dalam jaringan IP, ukuran paket tidak tetap.Teknologi ATM banyak dikembangkan di Amerika Serikat (tidak dibahas disini). Satu hal lagi, bahwa jaringan ATM dirancang berbasis layanan broadband dan dapat mengakomodasi layanan VBR (Variable Bit Rate) selain CBR (Constant Bit Rate). Sedangkan rancangan awal jaringan IP berbasis Narrow Band dan layanan CBR. <br><br></p>
+
+										<h3><li>Konsep Jaringan WAN </li></h3><br>
+										<p align="justify">Wide Area Network (WAN) mencakup daerah geografis yang luas, seringkali mencakup sebuah negara atau benua. WAN terdiri dari kumpulan mesin yang bertujuan untuk menjalankan program-program aplikasi. mesin-mesin ini sebagai host. Istilah End System kadang-kadang juga digunakan dalam literatur. Host dihubungkan dengan sebuah subnet komunikasi, atau cukup disebut subnet. Tugas subnet adalah membawa pesan dari host ke host lainnya, seperti halnya sistem telepon yang membawa isi pembicaraan dari pembicara ke pendengar. Dengan memisahkan aspek komunikasi murni sebuah jaringan (subnet) dari aspek-aspek aplikasi (host), rancangan jaringan lengkap menjadi jauh lebih sederhana. <br><br>
+										Pada sebagian besar WAN, subnet terdiri dari dua komponen, yaitu kabel transmisi dan elemen switching. Kabel transmisi (disebut juga sirkuit, channel, atau trunk) memindahkan bit-bit dari satu mesin ke mesin lainnya. Element switching adalah komputer khusus yang dipakai untuk menghubungkan dua kabel transmisi atau lebih. Saat data sampai ke kabel penerima, element switching harus memilih kabel pengirim untuk meneruskan pesan-pesan tersebut. Sayangnya tidak ada terminologi standar dalam menamakan komputer seperti ini. Namanya sangat bervariasi disebut paket switching node, intermidiate system, data switching exchange dan sebagainya. <br><br>
+										Sebagai istilah generik bagi komputer switching, kita akan menggunakan istilah router. Tapi perlu diketahui terlebih dahulu bahwa tidak ada konsensus dalam penggunaan terminologi ini. Host dihubungkan ke LAN tempat dimana terdapat sebuah router, walaupun dalam beberapa keadaan tertentu sebuah host dapat dihubungkan langsung ke sebuah router. Kumpulan saluran komunikasi dan router (tapi bukan host) akan membentuk subnet.<br><br>
+										Istilah subnet sangat penting, tadinya subnet berarti kumpulan kumpulan router-router dan saluran-saluran komunikasi yang memindahkan paket dari host ke host tujuan. Akan tetapi, beberapa tahun kemudian subnet mendapatkan arti lainnya sehubungan dengan pengalamatan jaringan. <br><br>
+										Pada sebagian besar WAN, jaringan terdiri dari sejumlah banyak kabel atau saluran telepon yang menghubungkan sepasang router. Bila dua router yang tidak mengandung kabel yang sama akan melakukan komunikasi, keduanya harus berkomunikasi secara tak langsung melalui router lainnya. ketika sebuah paket dikirimkan dari sebuah router ke router lainnya melalui router perantara atau lebih, maka paket akan diterima router dalam keadaan lengkap, disimpan sampai saluran output menjadi bebas, dan kemudian baru diteruskan.<br><br>
+										Subnet yang mengandung prinsip seperti ini disebut subnet point-to-point, store-and-forward, atau packet-switched. Hampir semua WAN (kecuali yang menggunakan satelit) memiliki subnet store-and-forward. Di dalam menggunakan subnet point-to-point, masalah rancangan yang penting adalah pemilihan jenis topologi interkoneksi router. LAN biasanya berbentuk topologi simetris, sebaliknya WAN umumnya bertopologi tak menentu. <br><br>
+										Jaringan WAN (Wide Area Network) merupakan kumpulan dari LAN dan/atau Workgroup yang dihubungkan dengan menggunakan alat komunikasi modem dan jaringan Internet, dari/ke kantor pusat dan kantor cabang, maupun antar kantor cabang. Dengan sistem jaringan ini, pertukaran data antar kantor dapat dilakukan dengan cepat serta dengan biaya yang relatif murah. Sistem jaringan ini dapat menggunakan jaringan Internet yang sudah ada, untuk menghubungkan antara kantor pusat dan kantor cabang atau dengan PC Stand Alone/Notebook yang berada di lain kota ataupun negara. <br><br></p>
+
+										<h3><li>Keuntungan Jaringan WAN</li></h3>
+										<ol>
+										<li><p align="justify">Server kantor pusat dapat berfungsi sebagai bank data dari kantor cabang.</p></li> 
+										<li><p align="justify">Komunikasi antar kantor dapat menggunakan E-Mail & Chat. </p></li>
+										<li><p align="justify">Dokumen/File yang biasanya dikirimkan melalui fax ataupun paket pos, dapat dikirim melalui E-mail dan Transfer file dari/ke kantor pusat dan kantor cabang dengan biaya yang relatif murah dan dalam jangka waktu yang sangat cepat.</p></li> 
+										<li><p align="justify">Pooling Data dan Updating Data antar kantor dapat dilakukan setiap hari pada waktu yang ditentukan. </p></li>
+										</ol>
+
+										<h3><li>Koneksi Jaringan WAN </li></h3><br>
+										<p align="justify">Untuk mengoneksikan jaringan WAN kita harus menggunakan alat khusus yang bekerja sebagai pusat layanan, misalnya satelit VSAT. VSAT merupakan jaringan atau sistem komunikasi satelit yang terdiri atas sejumlah stasiun remote (terminal VSAT) dengan menggunakan antena parabola berdiameter lebih kecil dibandingkan dengan komunikasi satelit lainnya, menggunakan sebuah atau sebagian transponder satelit sebagai pengulang (repeater) dengan didukung peralatan pada stasiun dan sebuah stasiun bumi utama. <br><br>
+										WAN merupakan kumpulan dari beberapa LAN yang digabungkan menjadi suatu jaringan baru. Di sini VSAT berperan sebagai media penghubung antara suatu jaringan LAN. Jadi setiap jaringan LAN merupakan stasiun terminal. WAN mencakup daerah geografis yang luas, seringkali mencakup sebuah negara atau benua. Pada sebagian besar WAN, jaringannya terdiri dari dua komponen : kabel transmisi dan element switching. Kabel transmisi memindahkan bit-bit dari satu mesin ke mesin lainnya. Element switching adalah komputer khusus yang dipakai untuk menghubungkan dua kabel transmisi atau lebih. <br><br>
+										Pada sistem WAN dengan media VSAT maka selain server pada tiap jaringan LAN-nya masih ada server lain yang lebih besar yang berada pada stasiun Hub. Server ini akan mengontrol komunikasi antar terminal VSAT yang berada di bawahnya. Server yang berada pada stasiun terminal hanya menampung data dari workstation-workstation yang ada di bawahnya. Sistem kerja dari WAN adalah seperti halnya jaringan LAN hanya jika diinginkan transfer data dari user di terminal VSAT yang lain maka server yang berada pada terminal VSAT tersebut akan menghubungi stasiun Hub dan stasiun Hub akan menghubungkan dengan terminal VSAT yang diinginkan sehingga transfer data yang diinginkan dapat terjadi. Jadi jika user yang diinginkan dihubungi hanya berada pada terminal VSAT-nya sendiri maka hubungan ke stasiun Hub tidak dilakukan. <br><br>
+										Selain digunakan untuk transfer data jaringan VSAT pada konfigurasi WAN juga dapat digunakan untuk transfer video maupun voice. Jadi terminal workstasiunnyapun tidak harus menggunakan komputer, tetapi bisa menggunakan mesin fax atau yang lainnya. Konfigurasi tersebut juga mempunyai bit rate yang cukup tinggi untuk transmisi datanya, selain itu kerahasian data terjamin pula. <br><br>
+										Walaupun banyak manfaatnya sistem WAN ini akan menjadi tidak efektif jika penggunaannya hanya di bawah jumlah 100. Jika penggunaannya lebih dari 100 maka sistem tersebut menjadi efektif dan handal. Dalam perkembangan WAN, jika jaringan LAN semakin banyak dan user (penggunanya) berada di seluruh belahan dunia maka sistem tersebut dinamakan Internet.</p><br><br>
+
+										<h3><li>Insfrakstruktur Jaringan WAN</li></h3>
+										<p align="justify">Seperti LAN (Local Area Network), terdapat sejumlah perangkat yang melewatkan aliran informasi data dalam sebuah WAN. Penggabungan perangkat tersebut akan menciptakan infrastruktur WAN. Perangkat-perangkat tersebut adalah : </p><br><br>
+										<ol>
+										<h4><li>Router </li></h4>
+										<p align="justify">Router adalah peningkatan kemampuan dari bridge. Router mampu menunjukkan rute/jalur (route) dan memfilter informasi pada jaringan yang berbeda. Beberapa router mampu secara otomatis mendeteksi masalah dan mengalihkan jalur informasi dari area yang bermasalah.</p><br>
+
+										<h4><li>ATM Switch </li></h4>
+										<p align="justify">Switch ATM menyediakan transfer data berkecepatan tinggi antara LAN dan WAN </p><br>
+
+										<h4><li>Modem and CSU/DSU</li></h4>
+										<p align="justify">Modem mengkonversi sinyal digital dan analog. Pada pengirim, modem mengkonversi sinyal digital ke dalam bentuk yang sesuai dengan teknologi transmisi untuk dilewatkan melalui fasilitas komunikas analog atau jaringan telepon (public telephone line). Di sisi penerima, modem mengkonversi sinyal ke format digital kembali. </p><br>
+
+										<h4><li>CSU/DSU (Channel Service Unit / Data Service Unit) </li></h4>
+										<p align="justify">CSU/DSU sama seperti modem, hanya saja CSU/DSU mengirim data dalam format digital melalui jaringan telephone digital. CSU/DSU biasanya berupa kotak fisik yang merupakan dua unit yang terpisah : CSU atau DSU. </p><br>
+
+										<h4><li>Communication Server </li></h4>
+										<p align="justify">Communication Server adalah server khusus in/out bagi pengguna untuk dapat melakukan dial dari lokasi remote sehingga dapat terhubung ke LAN. </p><br>
+
+										<h4><li>Multiplexer </li></h4>
+										<p align="justify">Sebuah Multiplexer mentransmisikan gabungan beberapa sinyal melalui sebuah sirkuit (circuit). Multiplexer dapat mentransfer beberapa data secara simultan (terus-menerus), seperti video, sound, text, dan lain-lain. </p><br>
+
+										<h4><li>X.25/Frame Relay Switches </li></h4>
+										<p align="justify">Switch X.25 dan Frame Relay menghubungkan data lokal/private melalui jaringan data, mengunakan sinyal digital. Unit ini sama dengan switch ATM, tetapi kecepatan transfer datanya lebih rendah dibanding dengan ATM.</p><br>
+										
+										</ol>
+									</ol>
+								</div>                        
+							</div>                    
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- End Testimornial Area -->
+				
+		<div id="section4">
+			<!-- Start Contact Area -->
+			<section id="contact-area" class="contact-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center inner">
+							<div class="contact-content">
+								<h1>contact form</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+								<form action="#" method="post" class="contact-form">
+								<div class="col-sm-6 contact-form-left">
+									<div class="form-group">
+										<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+										<input type="email" name="email" class="form-control" id="mail" placeholder="Email">
+										<input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+									</div>
+								</div>
+								<div class="col-sm-6 contact-form-right">
+									<div class="form-group">
+										<textarea name="message" rows="6" class="form-control" id="comment" placeholder="Your message here..."></textarea>
+										<button type="submit" class="btn btn-default">Send</button>
+									</div>
+								</div>                        
+							</form>    
+						</div>                
+					</div>
+				</div>
+			</section>
+			<!-- End Contact Area -->
+		</div>
+
+		<!-- Start Footer Area -->
+		<footer id="footer-area">
+			<hr>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">             
+						<p class="copy">Copyright © 2019 Imam M. H. Harahap</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Area -->
+
+				<script src="js/jquery-1.11.2.min.js"></script>
+				<script src="js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+				<script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+				<script src="js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+				<script>
+
+    // HTML document is loaded. DOM is ready.
+    $(function() {  
+
+    // Parallax
+        $('.intro-section').parallax({
+        	imageSrc: 'img/bg-1.jpg',
+        	speed: 0.2
+        });
+        $('.services-section').parallax({
+        	imageSrc: 'img/bg-2.jpg',
+        	speed: 0.2
+    	});
+        $('.contact-section').parallax({
+        	imageSrc: 'img/bg-3.jpg',
+        	speed: 0.2
+        });    
+
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+		        scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+		        scrollFrom: 'top',           // 'top' or 'bottom'
+		        scrollSpeed: 1000,            // Speed back to top (ms)
+		        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+		        animation: 'fade',           // Fade, slide, none
+		        animationSpeed: 300,         // Animation speed (ms)		        
+		        scrollText: '', // Text for element, can contain HTML		        
+		        scrollImg: true            // Set true to use image		        
+            });
+
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+				</script>
+	</body>
+</html>
